@@ -1,5 +1,5 @@
 ### Date created
-This project is forked from Udacity's github page on 6/29/2020. README.md file is also created on the same date.
+This project is forked from Udacity's github page on 6/29/2020 and the README.md file is also created on the same date.
 
 ### Project Title
 Explore US Bikeshare Data
