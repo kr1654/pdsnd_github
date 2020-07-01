@@ -73,6 +73,7 @@ def time_stats(df):
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     # extract month and day of week from Start Time to create new columns
+    df['hour'] =df['Start Time'].dt.hour
     df['month'] =df['Start Time'].dt.month
     dh['day_of_week'] = df['Start Time'].dt.weekday_name
     # display the most common month
@@ -178,7 +179,7 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-    print('-'*40)        
+    print('-'*40)
     print('-'*40) #print a border after this block of code is executed
 
 if __name__ == "__main__":
