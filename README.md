@@ -2,7 +2,7 @@
 Creation of this project 6/30/2020
 
 ### Project Title
-Bikeshare PY
+Explore US Bikehare Data
 
 ### Description
 Course project for the Udacity Nanodegree program - Programming for Data Science on Data Analysis with SQL and Python. It allows you to view information and statistics from three cities, New York, Chicago and Washington.
